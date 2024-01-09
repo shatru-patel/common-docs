@@ -1,0 +1,25 @@
+services:
+ # Production Services
+  hss:
+    ip_address: hss
+    port: 9204
+
+  swx-proxy:
+    ip_address: 172.23.0.15
+    port: 9110
+
+  eap-aka:
+    ip_address: 172.23.0.16
+    port: 9123
+
+  aaa-server:
+    ip_address: 172.23.0.17
+    port: 9109
+
+  radsec:
+    ip_address: 172.23.0.18
+    port: 9108
+
+  uesim:
+    ip_address: 172.23.0.20
+    port: 10101
