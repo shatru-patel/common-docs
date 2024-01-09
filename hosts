@@ -1,0 +1,18 @@
+127.0.0.1       localhost
+127.0.1.1       ubuntu2004.localdomain
+172.23.0.14 hss
+172.23.0.15 swx-proxy
+172.23.0.20 uesim
+# 172.23.0.18 radius
+172.23.0.18 radsec
+172.23.0.17 aaa-server
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+127.0.0.1 ubuntu2004.localdomain
+
+127.0.2.1 cwag-pmndev cwag-pmndev
+172.16.9.8 fluentd.magma.test
